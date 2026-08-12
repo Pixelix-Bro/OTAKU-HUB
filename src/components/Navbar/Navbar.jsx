@@ -1,13 +1,5 @@
-import { NavLink } from "react-router-dom";
-import Logo from "../../../public/4.png";
-import {
-  Search,
-  MessageCircleMore,
-  CircleUserRound,
-  Dice6,
-  ChartNoAxesCombined,
-  House,
-} from "lucide-react";
+import { NavLink } from 'react-router-dom'
+import Logo from '../../../public/4.png'
 function Navbar() {
   return (
     <>
@@ -21,42 +13,17 @@ function Navbar() {
                 className=" items-center w-[30%] gap-[40px] backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl shadow-xl flex justify-center"
               />
             </div>
-            <div className="menu text-white flex items-center w-[37%] gap-[40px] backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl shadow-xl flex justify-center">
-              <NavLink to={"/"}>
-                <House />
-              </NavLink>
-              <NavLink to={"/top"}>
-                <ChartNoAxesCombined />
-              </NavLink>
-              <NavLink to={"/random"}>
-                <Dice6 />
-              </NavLink>
-              <NavLink to={"/search"}>
-                <Search />
-              </NavLink>
-              <NavLink to={"/me"}>
-                <CircleUserRound />
-              </NavLink>
-            </div>
-            <div className="flex gap-[10px] w-[15%]">
-              <NavLink
-                to={"/login"}
-                className="flex w-[50%] items-center text-white gap-[20px] backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl shadow-xl flex justify-center"
-              >
-                Login
-              </NavLink>
-              <NavLink
-                to={"/login"}
-                className="flex w-[50%] items-center text-white gap-[20px] backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl shadow-xl flex justify-center"
-              >
-                Sing Up
-              </NavLink>
+            <div className="menu text-white flex items-center w-auto p-[20px] gap-[30px] backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl shadow-xl flex justify-center">
+              <NavLink to={'/'}>Home</NavLink>
+              <NavLink to={'/top'}>Top Anime</NavLink>
+              <NavLink to={'/random'}>Random Anime</NavLink>
+              <NavLink to={'/search'}>Search</NavLink>
             </div>
           </div>
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar

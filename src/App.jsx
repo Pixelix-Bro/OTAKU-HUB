@@ -1,24 +1,23 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-import { Toaster } from "sonner";
-import AnimePlus from "../admin/Admin/animeqoshish/AnimePlus";
-import Dashboard from "../admin/Admin/Dashboard/Dashboard";
-import AdminLayout from "../admin/AdminLayout/AdminLayout";
+import { Toaster } from 'sonner'
+import AnimePlus from '../admin/Admin/animeqoshish/AnimePlus'
+import Dashboard from '../admin/Admin/Dashboard/Dashboard'
+import AdminLayout from '../admin/AdminLayout/AdminLayout'
 
-import AdminPost from "../admin/Admin/post/AdminPost";
-import AdminStatus from "../admin/Admin/Status/AdminStatus";
-import Layout from "./Layout/Layout";
-import Home from "./pages/home/Home";
-import Login from "./pages/login/Login/Login";
-import Luciy from "./pages/luc/Luciy";
-import Me from "./pages/Me/Me";
-import Top from "./pages/top/Top";
-import Search from "./pages/Search/Search";
-import Watch from "./pages/Watch/Watch";
-import Nodefine from "./Notes/Nodefine";
+import AdminPost from '../admin/Admin/post/AdminPost'
+import AdminStatus from '../admin/Admin/Status/AdminStatus'
+import Layout from './Layout/Layout'
+import Nodefine from './Notes/Nodefine'
+import Home from './pages/home/Home'
+import Luciy from './pages/luc/Luciy'
+import Me from './pages/Me/Me'
+import Search from './pages/Search/Search'
+import Top from './pages/top/Top'
+import Watch from './pages/Watch/Watch'
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <Layout />,
     children: [
       {
@@ -26,35 +25,31 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "top",
+        path: 'top',
         element: <Top />,
       },
       {
-        path: "random",
+        path: 'random',
         element: <Luciy />,
       },
       {
-        path: "me",
+        path: 'me',
         element: <Me />,
       },
 
       {
-        path: "search",
+        path: 'search',
         element: <Search />,
       },
       {
-        path: "watch/anime/id/:id",
+        path: 'watch/anime/id/:id',
         element: <Watch />,
       },
     ],
   },
-  {
-    path: "/login",
-    element: <Login />,
-  },
 
   {
-    path: "admin",
+    path: 'admin',
     element: <AdminLayout />,
     children: [
       {
@@ -62,24 +57,24 @@ const router = createBrowserRouter([
         element: <Dashboard />,
       },
       {
-        path: "addanime",
+        path: 'addanime',
         element: <AnimePlus />,
       },
       {
-        path: "status",
+        path: 'status',
         element: <AdminStatus />,
       },
       {
-        path: "post",
+        path: 'post',
         element: <AdminPost />,
       },
     ],
   },
   {
-    path:'*',
-    element:<Nodefine/>
-  }
-]);
+    path: '*',
+    element: <Nodefine />,
+  },
+])
 
 const App = () => {
   return (
@@ -88,13 +83,13 @@ const App = () => {
         position="top-center"
         toastOptions={{
           className:
-            "!bg-white/10 !backdrop-blur-xl !border !border-white/20 !text-white !shadow-lg",
+            '!bg-white/10 !backdrop-blur-xl !border !border-white/20 !text-white !shadow-lg',
         }}
       />
 
       <RouterProvider router={router} />
     </>
-  );
-};
+  )
+}
 
-export default App;
+export default App

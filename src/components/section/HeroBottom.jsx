@@ -1,4 +1,3 @@
-import videos from "../../pages/login/video/vq.mp4";
 function HeroBottom() {
   return (
     <div>
@@ -10,11 +9,11 @@ function HeroBottom() {
           playsInline
           className="object-cover h-[180px] w-screen rounded-4xl"
         >
-          <source src={videos} />
+          <source src="https://otaku-hub-backend-production.up.railway.app/api/video/msqc43ulumz20khh" />
         </video>
       </div>
     </div>
-  );
+  )
 }
 
-export default HeroBottom;
+export default HeroBottom

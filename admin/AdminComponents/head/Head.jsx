@@ -1,5 +1,3 @@
-import img1 from "../../../src/pages/login/img/one.jpg";
-
 function Head() {
   return (
     <div className="w-[100%] pt-[10px]">
@@ -9,14 +7,17 @@ function Head() {
             className="admin overflow-hidden rounded-[50%] h-[40px] w-[40px]
           "
           >
-            <img src={img1} alt="admin photo" className="w-[100px]" />
+            <img
+              src="https://otaku-hub-backend-production.up.railway.app/api/image/msqcdg4br47hh2oz"
+              alt="admin photo"
+              className="w-[100px]"
+            />
           </div>
           <p className="text-white">Admin</p>
         </div>
-
       </div>
     </div>
-  );
+  )
 }
 
-export default Head;
+export default Head
