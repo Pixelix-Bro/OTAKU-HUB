@@ -6,12 +6,18 @@
       "password": "pono0908",
       "email": "manzura.sharipova.ru@gmail.com",
       "time": "2026-06-27T16:09:53.392Z"
+    },
+    {
+      "id": "bX7nW2J4yrU",
+      "name": "ubaydulloh",
+      "password": "pono0908",
+      "email": "man@gmail.com",
+      "time": "2026-08-11T04:03:35.980Z"
     }
   ],
   "animes": [
     {
-      "id": "2",
-      "title": "Black Clover",
+      "title": "Black  Claver",
       "caption": "Asta dreams of becoming the Wizard King despite having no magic.Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium atque, nostrum consectetur asperiores minima illo maiores, rem culpa dolor dicta corporis ipsa cum quam, illum delectus dolore? Dignissimos suscipit laboriosam placeat ullam alias dolor optio totam at repudiandae fugit nam nemo, fugiat voluptatum sit rerum, asperiores provident obcaecati velit deleniti necessitatibus nisi tempore quasi excepturi?",
       "image": "https://m.media-amazon.com/images/I/81QcCmi+u6L.jpg",
       "genre": [
@@ -20,7 +26,8 @@
       ],
       "rating": 8.8,
       "episodes": 170,
-      "year": 2017
+      "year": 2017,
+      "id": "2"
     },
     {
       "id": "3",
@@ -34,19 +41,6 @@
       "rating": 9.7,
       "episodes": 1100,
       "year": 1999
-    },
-    {
-      "id": "4",
-      "title": "Overlord",
-      "caption": "A powerful guild master finds himself trapped inside a virtual world. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium atque, nostrum consectetur asperiores minima illo maiores, rem culpa dolor dicta corporis ipsa cum quam, illum delectus dolore? Dignissimos suscipit laboriosam placeat ullam alias dolor optio totam at repudiandae fugit nam nemo, fugiat voluptatum sit rerum, asperiores provident obcaecati velit deleniti necessitatibus nisi tempore quasi excepturi?",
-      "image": "https://image.tmdb.org/t/p/original/o6DS1lQASZsi5tmrWFrkvmTn8pG.jpg",
-      "genre": [
-        "Fantasy",
-        "Isekai"
-      ],
-      "rating": 8.9,
-      "episodes": 52,
-      "year": 2015
     },
     {
       "id": "5",
@@ -111,19 +105,6 @@
       ],
       "rating": 8.9,
       "episodes": 12,
-      "year": 2022
-    },
-    {
-      "id": "10",
-      "title": "Bleach: Thousand-Year Blood War",
-      "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium atque, nostrum consectetur asperiores minima illo maiores, rem culpa dolor dicta corporis ipsa cum quam, illum delectus dolore? Dignissimos suscipit laboriosam placeat ullam alias dolor optio totam at repudiandae fugit nam nemo, fugiat voluptatum sit rerum, asperiores provident obcaecati velit deleniti necessitatibus nisi tempore quasi excepturi? ",
-      "image": "https://hianime.com.pk/wp-content/uploads/2026/05/Bleach-housand.webp",
-      "genre": [
-        "Action",
-        "Fantasy"
-      ],
-      "rating": 9.4,
-      "episodes": 52,
       "year": 2022
     },
     {
