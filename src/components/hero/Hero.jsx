@@ -121,7 +121,7 @@ const Hero = () => {
       <br />
       <br />
       <br />
-      
+
     </div>
   );
 };

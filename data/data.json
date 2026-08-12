@@ -40,7 +40,16 @@
       ],
       "rating": 9.7,
       "episodes": 1100,
-      "year": 1999
+      "year": 1999,
+      "videos": [
+        {
+          "id": 1786540885581,
+          "title": "Sexsi",
+          "caption": "Sexsi",
+          "video": "https://otaku-hub-backend-production.up.railway.app/api/video/msqaadcu4lomvt85",
+          "time": "2026-08-12T13:21:25.581Z"
+        }
+      ]
     },
     {
       "id": "5",
@@ -53,7 +62,16 @@
       ],
       "rating": 9.3,
       "episodes": 500,
-      "year": 2007
+      "year": 2007,
+      "videos": [
+        {
+          "id": 1786539312473,
+          "title": "shinobu",
+          "caption": "ajoyib anime",
+          "video": "https://otaku-hub-backend-production.up.railway.app/api/video/msq9jb4t2fma7xfn",
+          "time": "2026-08-12T12:55:12.473Z"
+        }
+      ]
     },
     {
       "id": "6",

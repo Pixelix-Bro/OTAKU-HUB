@@ -6,7 +6,7 @@
   "main": "./elektron/main.js",
   "scripts": {
     "dev": "vite",
-    "server": "json-server --watch ./data/data.json",
+    "server": "npx json-server --watch ./data/data.json",
     "electron": "electron .",
     "wait-electron": "wait-on tcp:5173 && npm run electron",
     "start": "concurrently \"npm run dev\" \"npm run server\" \"npm run wait-electron\""
